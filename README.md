@@ -37,7 +37,6 @@ h2 {
 }
 .form-row {
     display: flex;
-    width: 30%;
     gap: 15px;
 }
 .form-row .form-group {
@@ -107,8 +106,8 @@ input:focus {
 <button type="submit" class="submit-btn">Оплатить заказ</button>
         </form>
     </div>
-<script src="script.js">
-    document.addEventListener('DOMContentLoaded', () => {
+<script>
+document.addEventListener('DOMContentLoaded', () => {
     const cardNumber = document.getElementById('card-number');
     const cardExpiry = document.getElementById('card-expiry');
     const cardCvv = document.getElementById('card-cvv');
