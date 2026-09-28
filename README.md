@@ -51,8 +51,8 @@ label {
 }
 input {
     padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
     font-size: 16px;
     outline: none;
     transition: border-color 0.2s;
