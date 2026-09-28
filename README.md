@@ -106,6 +106,38 @@ input:focus {
 <button type="submit" class="submit-btn">Оплатить заказ</button>
         </form>
     </div>
-<script src="script.js"></script>
+<script src="script.js">
+    document.addEventListener('DOMContentLoaded', () => {
+    const cardNumber = document.getElementById('card-number');
+    const cardExpiry = document.getElementById('card-expiry');
+    const cardCvv = document.getElementById('card-cvv');
+    const paymentForm = document.getElementById('payment-form');
+// Форматирование номера карты (разделение по 4 цифры)
+    cardNumber.addEventListener('input', (e) => {
+        let value = e.target.value.replace(/\D/g, '');
+        let formatted = value.match(/.{1,4}/g);
+        e.target.value = formatted ? formatted.join(' ') : '';
+    });
+// Форматирование срока действия (ММ/ГГ)
+    cardExpiry.addEventListener('input', (e) => {
+        let value = e.target.value.replace(/\D/g, '');
+        if (value.length > 2) {
+            e.target.value = value.slice(0, 2) + '/' + value.slice(2, 4);
+        } else {
+            e.target.value = value;
+        }
+    });
+// Ограничение на ввод только цифр для CVV
+    cardCvv.addEventListener('input', (e) => {
+        e.target.value = e.target.value.replace(/\D/g, '');
+    });
+// Обработка отправки формы
+    paymentForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // В реальном приложении здесь данные отправляются на защищенный шлюз (Stripe, WayForPay и др.)
+        alert('Форма валидна. Отправка данных на платежный шлюз...');
+    });
+});
+</script>
 </body>
 </html>
