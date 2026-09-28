@@ -37,8 +37,8 @@ h2 {
 }
 .form-row {
     display: flex;
-    flex-ditection: column;
-    gap: 15px;
+    flex-direction: column;
+    gap: 5px;
 }
 .form-row .form-group {
     flex: 1;
