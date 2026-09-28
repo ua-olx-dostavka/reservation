@@ -36,6 +36,8 @@ h2 {
 }
 .form-row {
     display: flex;
+    flex-direction: row;
+    max-width: 70px;
     gap: 15px;
 }
 .form-row .form-group {
