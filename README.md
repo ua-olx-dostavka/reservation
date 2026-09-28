@@ -2,8 +2,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Безопасная оплата заказа</title>
-    <link rel="stylesheet" href="style.css">
     <style>
     * {
     box-sizing: border-box;
@@ -15,7 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh
 };
 .payment-container {
     background: #ffffff;
@@ -23,7 +21,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     width: 100%;
-    max-width: 400px;
+    max-width: 400px
 };
 h2 {
     margin-bottom: 20px;
