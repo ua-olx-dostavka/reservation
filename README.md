@@ -34,11 +34,6 @@ h2 {
     margin-bottom: 15px;
     display: flex;
     flex-direction: column;
-}
-        .form-group > 
-        :nth-child(2) {
-  color: red;
-    max-width: 100px;
             }
 .form-row {
     display: flex;
