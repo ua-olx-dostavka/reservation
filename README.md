@@ -98,7 +98,7 @@ input:focus {
                     <input type="text" id="card-expiry" placeholder="ММ/ГГ" maxlength="5" required>
                 </div>
                 <!-- CVV/CVC -->
-                <div class="form-group"style="color: red; max-width: 18px;">
+                <div style="color: red; max-width: 18px;" class="form-group">
                     <label for="card-cvv">CVC / CVV</label>
                     <input type="password" id="card-cvv" placeholder="123" maxlength="3" required>
                 </div>
