@@ -9,15 +9,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;};
 body {
     background-color: #f4f6f8;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+};
 .payment-container {
     background: #ffffff;
     padding: 30px;
@@ -25,7 +24,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     width: 100%;
     max-width: 400px;
-}
+};
 h2 {
     margin-bottom: 20px;
     color: #333;
