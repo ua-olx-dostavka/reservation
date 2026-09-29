@@ -40,7 +40,7 @@ h2 {
     gap: 15px;
 }
 .form-row .form-group {
-    flex: 1;
+    flex: 0.5;
 }
 label {
     font-size: 14px;
