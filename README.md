@@ -39,8 +39,9 @@ h2 {
     display: flex;
     gap: 15px;
 }
-.form-row .form-group {
+.form-row {
     flex: 0.5;
+    flex-direction: column;
 }
 label {
     font-size: 14px;
